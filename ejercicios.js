@@ -1,11 +1,19 @@
 // Operadores de comparación
 // 1. Comprueba si 10 es mayor o igual que 9 e imprime el resultado en consola.
-function compareTenAndNine(a,b) {
-    return a >= b;
+function compareTenAndNine() {
+    const a=10, b=9;
+    let resultado;
+    if(a<b){
+       resultado=(a+" es menor que "+b);
+    }else if(a>b){
+        resultado=(a+" es mayor que "+b);
+    }else
+        resultado=(a+" es igual a "+b);
+
+    console.log(resultado);
     
 }
-let comparacion = compareTenAndNine(10,9);
-    console.log(comparacion);
+
 
 // 2. Comprueba si 0 es igual a 0 e imprime el resultado en consola.
 function compareZeroAndZero() {
@@ -16,7 +24,13 @@ function compareZeroAndZero() {
 
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
-    console.log(7>8<10);
+    let numero=7;
+    let numerodos=8;
+    let  numerotres=10;
+    if(numero > numerodos && numero<numerostres){
+        console.log(numero+" es mayor que"+numerodos+" y menor que "+numerotres)
+    }else
+        console.log("No se cumple con los requisitos")
 }
 
 // Operadores lógicos
