@@ -145,16 +145,19 @@ esVocal('a');
 // Ejercicio 10: Condicionales complejos con operadores lógicos
 // Instrucción: Escribe una función que reciba tres números y determine si todos son positivos, al menos uno es negativo, o todos son negativos. Usa operadores lógicos (`&&`, `||`).
 function evaluarNumeros(a, b, c) {
-    if(a>0 && b>0 && c>0){
-        console.log("El numero es positivo");
-    }
-    else if(a<0 || b<0 || c<0){
-            console.log("El numero es negativo");
-        }
+    if (a > 0 && b > 0 && c > 0) {
+        console.log("Los numeros son positivos");
+    } else if (a < 0 || b < 0 || c < 0) {
+        console.log("Al menos un numero es negativo");
+    } else {
+        console.log("Todos son ceros");
+    }    
+}
 
-    }
+evaluarNumeros(-2, -8, -9);
+evaluarNumeros(0, 0, 0);
+evaluarNumeros(2, 2, 3);  
 
-evaluarNumeros(2,9,9);
 // Exportar todas las funciones
 module.expor= {
     verificarParidad,
