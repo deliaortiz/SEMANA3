@@ -144,7 +144,7 @@ function potencia(base, exponente) {
     }
 }
     const calpotencia = potencia(2,3)
-console.log(potencia(2,3))
+console.log(potencia(2,2))
 
 // Exportar las funciones para que puedan ser probadas
 module.exports = {
