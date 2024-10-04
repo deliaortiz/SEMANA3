@@ -135,7 +135,7 @@ function factorial(n) {
         return n * factorial(n-1);
     
 }
-console.log(factorial(1));
+console.log(factorial(4));
 
 // 5.4 Escribe una función recursiva que calcule la potencia de un número dado el exponente. Por ejemplo: `potencia(2, 3) -> 8`
 function potencia(base, exponente) {
@@ -145,7 +145,6 @@ function potencia(base, exponente) {
 }
     const calpotencia = potencia(2,3)
 console.log(potencia(2,3))
-
 
 // Exportar las funciones para que puedan ser probadas
 module.exports = {
