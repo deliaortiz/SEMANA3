@@ -150,7 +150,7 @@ function evaluarNumeros(a, b, c) {
     } else if (a < 0 || b < 0 || c < 0) {
         console.log("Al menos un numero es negativo");
     } else {
-        console.log("Todos son ceros");
+        console.log("Todos son negativos");
     }    
 }
 
@@ -159,7 +159,7 @@ evaluarNumeros(0, 0, 0);
 evaluarNumeros(2, 2, 3);  
 
 // Exportar todas las funciones
-module.expor= {
+module.exports= {
     verificarParidad,
     clasificarEdad,
     cuentaRegresiva,
