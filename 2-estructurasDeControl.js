@@ -153,10 +153,10 @@ function evaluarNumeros(a, b, c) {
         console.log("Todos son negativos");
     }    
 }
-
+ 
 evaluarNumeros(-2,-8,-9);
-evaluarNumeros(0, 1, 0);
-evaluarNumeros(2, 2, 3);  
+//evaluarNumeros(0, 1, 0);
+//evaluarNumeros(2, 2, 3);  
 
 // Exportar todas las funciones
 module.exports= {
